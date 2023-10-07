@@ -9,5 +9,5 @@ def tonum(s):
 
 ans=0
 for line in sys.stdin:
-    ans+=tonam(line)
+    ans+=tonum(line)
 print(ans)
