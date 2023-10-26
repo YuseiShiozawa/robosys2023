@@ -15,7 +15,7 @@ $ seq 10 | ./plus
 
 ## テスト環境
 
-* Ubuntu
+* Ubuntu 20.04
 
 ## 権利関係
 
