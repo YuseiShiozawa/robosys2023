@@ -3,6 +3,9 @@
 ![test](https://github.com/YuseiShiozawa/robosys2023/actions/workflows/test.yml/badge.svg)
 
 標準入力から読み込んだ数値を足す。
+```bash
+seq 10 | ./plus
+55
 
 ## 必要なソフトウェア
 
