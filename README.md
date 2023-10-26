@@ -3,8 +3,14 @@
 ![test](https://github.com/YuseiShiozawa/robosys2023/actions/workflows/test.yml/badge.svg)
 
 標準入力から読み込んだ数値を足す。
+
+* 実行例
 ```bash
 $ seq 10 | ./plus
+```
+
+* 実行結果
+```bash
 55
 ```
 
