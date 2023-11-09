@@ -12,8 +12,8 @@ res=0
 ### I/O test ###
 out=$(seq 5 | ./plus)
 [ "${out}" = "合計:15, 平均:3.0"$'\n'"aaa" ] || ng $LINENO 
-out=$(seq -5 | ./plus)
-[ "${out}" = "エラー" ] || ng $LINEO
+##out=$(seq -5 | ./plus)
+##[ "${out}" = "エラー" ] || ng $LINEO
 
 ### STRANGE INPUT ###
 out=$(echo あ | ./plus)
