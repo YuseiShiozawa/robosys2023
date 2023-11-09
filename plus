@@ -11,7 +11,7 @@ def tonum(s):
         return float(s) 
 
 def unkouranai():
-    unko = ["うんこ", "ミニうんこ", "MEGAうこ"]
+    unko = ["うんこ", "ミニうんこ", "MEGAうんこ"]
     return random.choice(unko)
 
 count = 0
