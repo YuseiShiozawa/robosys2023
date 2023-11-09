@@ -14,9 +14,9 @@ out=$(seq 5 | ./plus)
 [ "${out}" = "合計:15, 平均:3.0" ] || ng $LINENO
 
 ### STRANGE INPUT ###
-##out=$(echo あ | ./plus)
-##[ "$?" = 1 ] || ng $LINENO
-##[ "${out}" = "" ] || ng $LINENO
+out=$(echo あ | ./plus)
+[ "$?" = 1 ] || ng $LINENO
+[ "${out}" = "" ] || ng $LINENO
 
 ##out=$(echo  | ./plus)
 ##[ "$?" = 1 ] || ng $LINENO
