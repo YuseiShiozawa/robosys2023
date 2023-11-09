@@ -2,7 +2,7 @@
 
 [![test](https://github.com/YuseiShiozawa/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/YuseiShiozawa/robosys2023/actions/workflows/test.yml)
 
-標準入力から読み込んだ数値を足す。
+標準入力から読み込んだ数値の合計、平均を求める。
 
 * 実行例
 ```bash
@@ -11,7 +11,7 @@ $ seq 10 | ./plus
 
 * 実行結果
 ```bash
-55
+合計:55, 平均:5.5
 ```
 
 ## 必要なソフトウェア
