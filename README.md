@@ -2,7 +2,7 @@
 
 [![test](https://github.com/YuseiShiozawa/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/YuseiShiozawa/robosys2023/actions/workflows/test.yml)
 
-標準入力から読み込んだ数値の合計、平均を求める。
+標準入力から読み込んだ数値の合計、平均を求める。その後、うんこ占いを行いランダムなうんこを出力する。
 
 * 実行例
 ```bash
@@ -12,6 +12,7 @@ $ seq 10 | ./plus
 * 実行結果
 ```bash
 合計:55, 平均:5.5
+うんこ占い:MEGAうんこ
 ```
 
 ## 必要なソフトウェア
