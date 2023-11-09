@@ -2,13 +2,17 @@
 #SPDX-FileCopyrightText: 2023 Yusei Shiozawa
 #SPDX-License-Identifier: BSD-3-Clause
 import sys
-
+import random
 
 def tonum(s):
     try:
         return int(s)
     except:
         return float(s) 
+
+def unkouranai():
+    unko = ["うんこ", "ミニうんこ", "MEGAうんこ"]
+    return random.choice(unko)
 
 count = 0
 ans=0
@@ -20,8 +24,8 @@ for line in sys.stdin:
 if count > 0:
     ave = ans/count
     print(f"合計:{ans}, 平均:{ave}")
+    print("うんこ占い:" + unkouranai())
 
 else :
     print("エラー")
     
-print("aaa")
