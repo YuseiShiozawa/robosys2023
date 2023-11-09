@@ -10,9 +10,7 @@ def tonum(s):
     except:
         return float(s) 
 
-total = 0
 count = 0
-
 ans=0
 for line in sys.stdin:
     line = line.rstrip()
@@ -25,4 +23,3 @@ if count > 0:
 
 else :
     print("エラー")
-##print(ans)
