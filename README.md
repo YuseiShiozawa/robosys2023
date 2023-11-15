@@ -2,7 +2,7 @@
 
 [![test](https://github.com/YuseiShiozawa/robosys2023/actions/workflows/test.yml/badge.svg)](https://github.com/YuseiShiozawa/robosys2023/actions/workflows/test.yml)
 
-標準入力から読み込んだ数値の合計、平均を求める。その後、ランダムにうんこ(全3種)を1つ出力する「うんこ占い」を行う。
+標準入力から読み込んだ数値の合計,平均を求める.その後,ランダムにうんこ(全3種)を1つ出力する「うんこ占い」を行う.
 
 * 実行例
 ```bash
