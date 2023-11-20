@@ -26,6 +26,4 @@ if count > 0:
     print(f"合計:{ans}, 平均:{ave}")
     print("うんこ占い:" + unkouranai())
 
-else :
-    print("入力に不備があります")
     
