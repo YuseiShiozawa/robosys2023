@@ -16,6 +16,7 @@ $ seq 10 | ./plus
 ```
 
 ## インストール手順
+下記の通り、クローンして実行する.
 ```bash
 $ git clone git@github.com:YuseiShiozawa/robosys2023.git
 ```
