@@ -15,6 +15,11 @@ $ seq 10 | ./plus
 うんこ占い:MEGAうんこ
 ```
 
+## インストール手順
+```bash
+$ git clone git@github.com:YuseiShiozawa/robosys2023.git
+```
+
 ## 必要なソフトウェア
 
 * Python
