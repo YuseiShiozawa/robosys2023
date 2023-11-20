@@ -19,6 +19,8 @@ $ seq 10 | ./plus
 下記の通りクローンし,リポジトリ内にてplusに実行権限を付与させてから実行してください.
 ```bash
 $ git clone https://github.com/YuseiShiozawa/robosys2023.git
+$ cd robosys2023
+$ chmod +x plus
 ```
 
 ## 必要なソフトウェア
